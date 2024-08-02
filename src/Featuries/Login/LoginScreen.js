@@ -2,6 +2,7 @@ import styles from './LoginScreen.module.css'
 import fonts from '../../Utils/AppTypography.module.css'
 import colors from '../../Utils/AppColors.module.css'
 import classNames from "classnames";
+import withSplashScreen from "../Splash/SplashScreen";
 
 function LoginScreen() {
 
@@ -11,4 +12,4 @@ function LoginScreen() {
 }
 
 
-export default LoginScreen
+export default withSplashScreen(LoginScreen);
