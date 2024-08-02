@@ -2,8 +2,10 @@ import DefaultButton from "./Components/DefaultButton/DefaultButton";
 import FilledButton from "./Components/FIlledButton/FilledButton";
 import OutlinedButton from "./Components/OutlinedButton/OutlinedButton";
 import styles from "./App.css";
-import typo from './AppTypography.models.css'
-import './Fonts.css'
+import fonts from './utils/AppTypography.module.css'
+import colors from './utils/AppColors.module.css'
+import './utils/Fonts.css'
+import classNames from "classnames";
 
 
 function App() {
@@ -21,7 +23,7 @@ function App() {
                 onClick={() => console.log("clicked")}
                 text='ButtonText'
             />
-            <p className={typo.f24w800}>Text</p>
+            <p className={classNames(fonts.f24w800, colors.white)}>Text</p>
         </div>
     );
 }
