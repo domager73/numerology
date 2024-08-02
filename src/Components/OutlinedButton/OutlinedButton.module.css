@@ -1,0 +1,12 @@
+.button{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.7px;
+    color: white;
+    padding: 14px 10px;
+    border: 2px solid #403999;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+}

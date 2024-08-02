@@ -1,0 +1,11 @@
+.button{
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    padding: 14px 10px;
+    background: linear-gradient(132.41deg, #231C81 1.86%, #5C56B0 96.58%);
+    color: white;
+    border: none;
+    border-radius: 16px;
+    font-family: 'Nunito', sans-serif;
+}
