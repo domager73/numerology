@@ -6,6 +6,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {Provider} from "react-redux";
 import {initStore} from "./Store/Store";
 import ThemeProvider from "./Сontexts/ThemeProvider";
+import LoginScreen from "./Featuries/Login/LoginScreen";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,7 +16,8 @@ root.render(
             <BrowserRouter>
                 <Routes>
                     {/* подстановочный путь */}
-                    <Route path="*" element={<App/>}/>
+                    <Route path="berba" element={<App/>}/>
+                    <Route path="*" element={<LoginScreen/>}/>
                 </Routes>
             </BrowserRouter>
         </Provider>

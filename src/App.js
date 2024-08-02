@@ -2,9 +2,9 @@ import DefaultButton from "./Components/DefaultButton/DefaultButton";
 import FilledButton from "./Components/FIlledButton/FilledButton";
 import OutlinedButton from "./Components/OutlinedButton/OutlinedButton";
 import styles from "./App.css";
-import fonts from './utils/AppTypography.module.css'
-import colors from './utils/AppColors.module.css'
-import './utils/Fonts.css'
+import fonts from './Utils/AppTypography.module.css'
+import colors from './Utils/AppColors.module.css'
+import './Utils/Fonts.css'
 import classNames from "classnames";
 
 
