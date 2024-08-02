@@ -1,3 +1,8 @@
+body {
+  background-color: #000000; /* Замените на нужный вам цвет */
+}
+
+
 .App {
   text-align: center;
 }
@@ -26,6 +31,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-body {
+  color: black;
 }
 
 @keyframes App-logo-spin {
