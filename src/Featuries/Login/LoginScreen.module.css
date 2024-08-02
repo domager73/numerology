@@ -1,3 +1,5 @@
 .login{
     background-color: #0B022C;
+    display: flex;
+    justify-content: center;
 }
